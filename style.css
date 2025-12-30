@@ -59,9 +59,9 @@
         }
 
         .cta-nav {
-            background: #02CCFA;
+            background: #000000;
             padding: 0.8rem 2rem;
-            border-radius: 25px;
+            border-radius: 10px;
             font-weight: 700;
         }
 
@@ -102,6 +102,7 @@
             max-width: 1200px;
             margin: 0 auto;
             width: 100%;
+            text-align: center;
         }
 
         .desktop-badge {
@@ -115,6 +116,7 @@
             display: inline-block;
             margin-bottom: 1.5rem;
             backdrop-filter: blur(10px);
+        
         }
 
         .meta-info {
@@ -177,7 +179,7 @@
             background: white;
             padding: 2rem;
             border-radius: 12px;
-            border-left: 4px solid #02CCFA;
+            border: 1px solid #02CCFA;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             transition: all 0.3s ease;
         }
@@ -239,11 +241,11 @@
         }
 
         .problem-box {
-            border-left: 4px solid #FF00FF;
+            border: 1px solid #FF00FF;
         }
 
         .solution-box {
-            border-left: 4px solid #02CCFA;
+            border: 4px solid #02CCFA;
         }
 
         .problem-box h3 {
@@ -284,7 +286,7 @@
 
         .warning-box {
             background: linear-gradient(135deg, rgba(255, 0, 255, 0.1), rgba(2, 204, 250, 0.05));
-            border-left: 4px solid #02CCFA;
+            
             padding: 1.5rem;
             border-radius: 12px;
             margin: 2rem 0;
@@ -575,7 +577,7 @@
         }
 
         footer a {
-            color: #02CCFA;
+            color: #000000;
             text-decoration: none;
             font-weight: 600;
         }
